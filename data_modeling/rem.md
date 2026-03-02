@@ -31,11 +31,11 @@
 
 Após executado o MER e feito o devido mapeamento para o MR, obtivemos os seguintes resultados a nível de tabelas:
 
-**Leitor** (<u>id</u>, nome, data_nascimento, email, género, palavra-passe) <br>
+**Leitor** (<u>id</u>, p_nome, sb_nome, data_nascimento, email, género, palavra-passe) <br>
 **Administrador** (Leitor) <br>
 **Revista** (<u>id</u>, nome, ano_lançamento, url, preço, quantidade_páginas, id_edição, id_administrador) <br>
-**Autor_Revista** (<u>id</u>, nome_autor, id_revista)
-**Edição** (<u>id</u>, número, tema, lema)
+**Autor_Revista** (<u>id</u>, nome_autor, id_revista) <br>
+**Edição** (<u>id</u>, número, tema, lema) <br>
 **Página** (<u>id</u>, numero_página, nome_projeto, id_revista) <br>
 **Pagamento** (<u>id</u>, método_pagamento, data_pagamento, url_comprovativo, estado_pagamento, token_acesso, id_leitor, id_revista) <br>
 **Comentário** (<u>id</u>, texto, data_efetividade, id_página, id_leitor, id_cometário_pai)
